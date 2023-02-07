@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <title>Redstore Ecommerce Website</title>
+</head>
+<body>
+    <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/logo/cart.png" width="30px" height="30px">
+                <img src="images/logo/menu.png" class="menu-icon" onclick="menuetoggle()">
+            </div>
+        </div>
+
+<!------- cart items details -------->
+
+        <div class="small-container cart-page">
+            
+            <table>
+                
+                <tr>
+                    <th>Product</th>
+                    <th>Quentity</th>
+                    <th>Subtotal</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/face/ffff.jpg">
+                            <div>
+                                <p>Makeup Set</p>
+                                <small>Price: $150.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$150.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/fundtion/cv.jpg">
+                            <div>
+                                <p>Foundtion Set</p>
+                                <small>Price: $250.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$150.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/lipstic/cart2.jpg">
+                            <div>
+                                <p>Lipstick Set</p>
+                                <small>Price: $190.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$150.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/parfium/gall.jpg">
+                            <div>
+                                <p>Parfiume Set</p>
+                                <small>Price: $350.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$150.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/neail polish/ww.jpg">
+                            <div>
+                                <p>Neailpolish Set</p>
+                                <small>Price: $450.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$150.00</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/brus/gall.jpg">
+                            <div>
+                                <p>Mekaup Brush Set</p>
+                                <small>Price: $130.00</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$150.00</td>
+                </tr>
+                
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$300.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tax</td>
+                        <td>$50.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Total</td>
+                        <td>$350.00</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+        
+
+
+<!------ footer ----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS Mobile Phones.</p>
+                    <div class="app-logo">
+                        <img src="images/logo/play-store.png">
+                        <img src="images/logo/app-store.png">
+                    </div>
+                </div>
+            <div class="footer-col-2">
+                    <img src="images/logo/logo-white.png" >
+                    <p>Our purpose is to sustainably make the pleasure and </br> benefits of sports accessible to many.</p>
+            </div> 
+            <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2020</p>
+        </div>
+    </div>
+
+<!------ js for toggle menue -------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menuetoggle() {
+            if(MenuItems.style.maxHeight == "0px") 
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+            else 
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+        
+        }
+
+    </script>
+
+</body>
+</html>    

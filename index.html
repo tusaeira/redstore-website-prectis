@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <title>Redstore Ecommerce Website</title>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/logo/cart.png" width="30px" height="30px">
+                <img src="images/logo/menu.png" class="menu-icon" onclick="menuetoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout <br> A New Style!</h1>
+                    <p>Success isn't always about greatness, it's about consistency.Consistent <br> hard work gains success. Greatness will come.</p>
+                    <a href="" class="btn">Explore now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/logo/banner.jpg" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---- Featured Categories ---->
+
+    <div class="Categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="images/face/blush11.jpg">
+                </div>
+                <div class="col-6">
+                    <img src="images/fundtion/fundtion10.jpg">
+                </div>
+               <div class="col-6">
+                    <img src="images/lipstic/lip1.jpg">
+                </div>
+                <div class="col-6">
+                    <img src="images/parfium/par2.jpg" >
+               </div>
+               <div class="col-6">
+               <img src="images/neail polish/neailp5.jpg" >
+               </div>
+               <div class="col-6">
+                    <img src="images/brus/br1.jpg" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---- Featured Products ----> 
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-6">
+                <img src="images/face/bl.jpg" >
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$110.00</p>
+            </div>
+            <div class="col-6">
+                <img src="images/fundtion/fundtion4.jpg" >
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                </div>
+                <p class="pont">$125.00</p>
+            </div>
+            <div class="col-6">
+                <img src="images/lipstic/lip6.jpg" >
+                <h4>Lipstic Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                </div>
+                <p class="pont">$100.00</p>
+            </div>
+            <div class="col-6">
+                <img src="images/parfium/pr.jpg" >
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$180.00</p>
+            </div>
+            <div class="col-6">
+                <img src="images/neail polish/neailp10.jpg" >
+                <h4>Neail Polish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$110.00</p>
+            </div>
+            <div class="col-6">
+                <img src="images/brus/nn.jpg" >
+                <h4>Makeup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>
+        </div>
+    </div>
+
+<!-------- Latset product mekup set-------->
+
+    <div class="small-container">
+        <h2 class="title">Latest Products Makeup Set</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/face/ffff.jpg">
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                 <p class="pont">$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/face/blush6.jpg" >
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+           </div>
+            <div class="col-4">
+                <img src="images/face/blush7.jpg" >
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/face/blush10.jpg" >
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/face/blush12.jpg">
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/face/ll.jpg">
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/face/tr.jpg">
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/face/ty.jpg">
+                <h4>Makeup Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+        </div>
+    </div>
+
+<!-------- Latset product foundtion-------->
+
+    <div class="small-container">
+        <h2 class="title">Latest Products Foundtion Set</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/fundtion/fundtion1.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/fundtion/fundtion3.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/fundtion/fundtion21.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$300.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/fundtion/fundtion8.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/fundtion/fundtion13.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$500.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/fundtion/fundtion11.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$550.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/fundtion/fundtion20.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$400.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/fundtion/fundtion6.jpg">
+                <h4>Foundtion Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+        </div>
+    </div>
+
+<!-------- Latset product lipstic-------->
+
+    <div class="small-container">
+        <h2 class="title">Latest Products Lipstick Set</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lipstic/lip2.jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$190.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lipstic/lip5.jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lipstic/lip1.jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lipstic/ttt.jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$125.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/lipstic/lip6.jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$130.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lipstic/lip7.jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$120.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lipstic/lip.jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/lipstic/lip (2).jpg">
+                <h4>Lipstick Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>
+        </div>
+    </div>
+
+<!-------- Latset product perfiume--------> 
+
+   <div class="small-container">
+        <h2 class="title">Latest Products Parfiume Set</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/parfium/tr.jpg">
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$350.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/parfium/ttt.jpg">
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$290.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/parfium/par2.jpg">
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$425.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/parfium/par6.jpg">
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$450.00</p>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-4">
+            <img src="images/parfium/par1.jpg">
+            <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$450.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/parfium/pr.jpg">
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$515.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/parfium/ppp.jpg">
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$305.00</p>
+            </div> 
+            <div class="col-4">
+                <img src="images/parfium/par5.jpg">
+                <h4>Parfiume Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$210.00</p>
+            </div>   
+        </div>
+    </div>
+
+<!-------- Latset product neailpolis-------->
+
+    <div class="small-container">
+        <h2 class="title">Latest Products Neailpolish Set</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/neail polish/neailp6.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$450.00</p>
+            </div> 
+            <div class="col-4">
+                <img src="images/neail polish/neailp3.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$425.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/neail polish/neailp8.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$225.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/neail polish/neailp5.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$230.00</p>
+            </div>   
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/neail polish/neailp2.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$470.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/neail polish/neailp4.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$250.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/neail polish/neailp12.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$300.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/neail polish/neailp9.jpg">
+                <h4>Neailpolish Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>  
+        </div>
+    </div>
+
+<!-------- Latset product brush-------->
+
+    <div class="small-container">
+        <h2 class="title">Latest Products Mekup Brush Set</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/brus/br2.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$130.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/brus/br3.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$125.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/brus/br4.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/brus/br6.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$200.00</p>
+            </div>      
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/brus/br9.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div> 
+            <div class="col-4">
+                <img src="images/brus/bb.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$105.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/brus/br12.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$150.00</p>
+            </div>  
+            <div class="col-4">
+                <img src="images/brus/tt.jpg">
+                <h4>Mekaup Brush Set</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="pont">$125.00</p>
+            </div>   
+        </div>
+    </div>
+
+<!-------------- offer -------------->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/logo/shophing.jpg" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Available on RedStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display with adjustable brightness, so everything is clear as can.</small>
+                    <br>
+                    <a href="" class="btn">Bye Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------- testimonials -------------->
+
+    <div class="testymonil">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/logo/user1.jpg">
+                    <h3>Sana Srin</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/logo/user2.jpg">
+                    <h3>Ayas Sobhan </h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/logo/user3.jpg">
+                    <h3>Furhaq Fashana</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------- brands ------->
+<div class="brands">
+    <div class="small-container">
+      <div class="row">
+          <div class="col-5">
+              <img src="images/logo/logo-godrej.png" >
+          </div>
+          <div class="col-5">
+              <img src="images/logo/logo-oppo.png" >
+          </div>
+          <div class="col-5">
+              <img src="images/logo/logo-coca-cola.png" >
+          </div>
+          <div class="col-5">
+              <img src="images/logo/logo-paypal.png" >
+          </div>
+          <div class="col-5">
+              <img src="images/logo/logo-philips.png" >
+          </div>
+      </div>
+    </div>  
+  </div>
+<!------ footer ----->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS Mobile Phones.</p>
+                    <div class="app-logo">
+                        <img src="images/logo/play-store.png">
+                        <img src="images/logo/app-store.png">
+                    </div>
+                </div>
+            <div class="footer-col-2">
+                    <img src="images/logo/logo-white.png" >
+                    <p>Our purpose is to sustainably make the pleasure and </br> benefits of sports accessible to many.</p>
+            </div> 
+            <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Posts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2020</p>
+        </div>
+    </div>
+
+
+<!------ js for toggle menue -------->
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menuetoggle() {
+            if(MenuItems.style.maxHeight == "0px") 
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+            else 
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+        
+        }
+
+    </script>
+
+
+
+</body>
+</html>
